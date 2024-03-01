@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.NewUser">
+   <children>
+      <ImageView fitHeight="638.0" fitWidth="962.0" layoutX="-160.0" layoutY="-44.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@registerimage.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="36.0" layoutY="142.0" text="First Name" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="441.0" layoutY="475.0" mnemonicParsing="false" onAction="#addlibrarian" text="REGISTER">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="36.0" layoutY="189.0" text="Last Name" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="233.0" text="Address" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="273.0" text="Phone Number" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="323.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="366.0" text="ID" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="419.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="regFName" layoutX="219.0" layoutY="141.0" />
+      <TextField fx:id="regLName" layoutX="219.0" layoutY="188.0" />
+      <TextField fx:id="regAddress" layoutX="219.0" layoutY="232.0" />
+      <TextField fx:id="regNumber" layoutX="219.0" layoutY="272.0" />
+      <TextField fx:id="regEmail" layoutX="219.0" layoutY="322.0" />
+      <TextField fx:id="regID" layoutX="217.0" layoutY="365.0" />
+      <TextField fx:id="regPassword" layoutX="219.0" layoutY="418.0" />
+      <Label layoutX="136.0" layoutY="40.0" prefHeight="42.0" prefWidth="312.0" text="LibrarianRegister" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

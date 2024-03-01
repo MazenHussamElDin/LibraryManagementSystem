@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Bookfuncs">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutY="2.0" pickOnBounds="true">
+         <image>
+            <Image url="@Borrow.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="197.0" layoutY="48.0" text="Rent a book">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="423.0" layoutY="169.0" mnemonicParsing="false" onAction="#rentthis" text="RENT">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="57.0" layoutY="132.0" text="User ID:">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="rentuserid" layoutX="196.0" layoutY="131.0" />
+      <Label fx:id="bookrentedlabel" layoutX="12.0" layoutY="335.0" prefHeight="42.0" prefWidth="580.0">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="rentTitle" layoutX="196.0" layoutY="219.0" />
+      <Label layoutX="57.0" layoutY="220.0" text="Book Title:">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
